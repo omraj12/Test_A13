@@ -322,15 +322,15 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
 
 # NFC
-PRODUCT_SOONG_NAMESPACES += \
-    vendor/nxp/opensource/sn100x
-
 PRODUCT_PACKAGES += \
+    android.hardware.nfc_snxxx@1.2-service \
     com.android.nfc_extras \
     com.gsma.services.nfc \
-    com.nxp.nfc.nq \
-    NQNfcNci \
-    Tag
+    libchrome.vendor \
+    NfcNci \
+    SecureElement \
+    Tag \
+    android.hardware.secure_element@1.2.vendor
 
 PRODUCT_PACKAGES += \
     nfc_nci.nqx.default.hw \
