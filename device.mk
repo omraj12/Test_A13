@@ -56,7 +56,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     audioadsprpcd \
-    audio.a2dp.default \
     audio.r_submix.default \
     audio.usb.default
 
