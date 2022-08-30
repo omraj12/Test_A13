@@ -2030,10 +2030,6 @@
         <ctl name="MultiMedia1 Mixer SLIM_7_TX" value="1" />
     </path>
 
-    <path name="audio-record bt-a2dp-cap">
-        <ctl name="MultiMedia1 Mixer SLIM_7_TX" value="1" />
-    </path>
-
     <path name="audio-record bt-sco-wb">
         <path name="audio-record bt-sco" />
     </path>
@@ -2055,10 +2051,6 @@
     </path>
 
     <path name="audio-record-compress bt-sco">
-        <ctl name="MultiMedia8 Mixer SLIM_7_TX" value="1" />
-    </path>
-
-    <path name="audio-record-compress bt-a2dp-cap">
         <ctl name="MultiMedia8 Mixer SLIM_7_TX" value="1" />
     </path>
 
@@ -2086,10 +2078,6 @@
         <ctl name="MultiMedia17 Mixer SLIM_7_TX" value="1" />
     </path>
 
-    <path name="audio-record-compress2 bt-a2dp-cap">
-        <ctl name="MultiMedia17 Mixer SLIM_7_TX" value="1" />
-    </path>
-
     <path name="audio-record-compress2 bt-sco-wb">
         <path name="audio-record-compress2 bt-sco" />
     </path>
@@ -2112,10 +2100,6 @@
 
     <path name="low-latency-record bt-sco">
       <ctl name="MultiMedia8 Mixer SLIM_7_TX" value="1" />
-    </path>
-
-    <path name="low-latency-record bt-a2dp-cap">
-        <ctl name="MultiMedia8 Mixer SLIM_7_TX" value="1" />
     </path>
 
     <path name="low-latency-record bt-sco-wb">
@@ -4219,10 +4203,6 @@
 
     <path name="mmap-record bt-sco">
       <ctl name="MultiMedia16 Mixer SLIM_7_TX" value="1" />
-    </path>
-
-    <path name="mmap-record bt-a2dp-cap">
-        <ctl name="MultiMedia16 Mixer SLIM_7_TX" value="1" />
     </path>
 
     <path name="mmap-record bt-sco-wb">
