@@ -1,5 +1,6 @@
 device/xiaomi/
 vendor/xiaomi/
 vendor/xiaomi/haydn-firmware/
+vendor/Gcam/
 vendor/qcom/opensource/healthd-ext/
 kernel/xiaomi/
